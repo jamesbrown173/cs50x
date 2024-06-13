@@ -16,7 +16,7 @@ void checksum(long n)
 {
 
   int num_div_10 = n / 10;
-  int snd_last_num = num_div_10 % 10;
+  int snd_last_num = num_div_10 % 100000;
 
   printf("%i\n", snd_last_num);
   
