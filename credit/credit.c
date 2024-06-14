@@ -1,25 +1,82 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
-void checksum(long n);
+bool check_sum(long num);
+
 int main(void)
 {
-
-  // Get the users input and print the input
-  long user_input = get_long("Number: ");
-  checksum(user_input);
-
-  return 0;
+    int digits = 0, single_digit = 0, two_digit = 0;
+    bool checksum;
+    long user_input = get_long("Number: ");
+    checksum = check_sum(user_input);
+    if (checksum == false)
+        return 0;
+    while(user_input > 0)
+    {
+        if (user_input < 10)
+        {
+            single_digit = user_input;
+        }
+        if (user_input > 10 && user_input < 100)
+        {
+            two_digit = user_input;
+        }
+        user_input /= 10;
+        digits ++;
+    }
+    if ((two_digit == 34 || two_digit == 37) && digits == 15)
+    {
+        printf("AMEX\n");
+        return 0;
+    }
+    else if ((two_digit == 51 || two_digit == 52 || two_digit == 53 || two_digit == 54 || two_digit == 55) && digits == 16)
+    {
+        printf("MASTERCARD\n");
+        return 0;
+    }
+    else if (single_digit == 4 && (digits == 13 || digits == 16))
+    {
+        printf("VISA\n");
+        return 0;
+    }
+    else
+        printf("INVALID\n");
+    return 0;
 }
 
-void checksum(long n)
+bool check_sum(long num)
 {
-
-  int num_div_10 = n / 10;
-  int snd_last_num = num_div_10 % 1;
-
-  printf("%i\n", snd_last_num);
-  
+    int total = 0, buffer = 0;
+    bool var = true;
+    while(num > 0)
+    {
+        if (var == true)
+        {
+            total += num % 10;
+            num /= 10;
+            var = false;
+        }
+        else
+        {
+            buffer = num % 10;
+            buffer *= 2;
+            if (buffer >= 10)
+            {
+                total += buffer % 10;
+                total += buffer / 10;
+            }
+            else
+            {
+                total += buffer;
+            }
+            var = true;
+            num /= 10;
+        }
+    }
+    if (total % 10 == 0)
+        return true;
+    printf("INVALID\n");
+    return false;
 }
 
   // Calculate the checksum
