@@ -6,7 +6,7 @@ int main(void)
 {
 
   // Get the users input and print the input
-  long user_input = get_long("Number : ");
+  long user_input = get_long("Number: ");
   checksum(user_input);
 
   return 0;
@@ -16,7 +16,7 @@ void checksum(long n)
 {
 
   int num_div_10 = n / 10;
-  int snd_last_num = num_div_10 % 100000;
+  int snd_last_num = num_div_10 % 1;
 
   printf("%i\n", snd_last_num);
   
