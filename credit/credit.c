@@ -81,7 +81,7 @@ bool check_sum(long num)
 
 
 // Changed repo name to cs50-problems
-// Added to check git pull
+// Added to check git pull - CHANGED ON THE LOCAL
 
   // Calculate the checksum
   
