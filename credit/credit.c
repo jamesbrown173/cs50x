@@ -7,7 +7,7 @@ int main(void)
 {
     int digits = 0, single_digit = 0, two_digit = 0;
     bool checksum;
-    long user_input = get_long("Number : ");
+    long user_input = get_long("Number: ");
     checksum = check_sum(user_input);
     if (checksum == false)
         return 0;
@@ -78,6 +78,9 @@ bool check_sum(long num)
     printf("INVALID\n");
     return false;
 }
+
+
+// Changed repo name to cs50-problems
 
   // Calculate the checksum
   
