@@ -81,12 +81,6 @@ bool check_sum(long num)
 
 
 // Changed repo name to cs50-problems
-<<<<<<< HEAD
-// Added to check git pull - CHANGED ON THE LOCAL
-=======
-// Added to check git pull - CHANGED ON THE BROWSER
->>>>>>> 221e299ab18177263d181c088b69b7b70f872483
-
   // Calculate the checksum
   
       // Multiply every other digit by 2, 
