@@ -80,7 +80,7 @@ bool check_sum(long num)
 }
 
 
-// Changed repo name to cs50-problems - LOCAL
+// Changed repo name to cs50-problems - LOCAL & BROWSER
   // Calculate the checksum
   
       // Multiply every other digit by 2, 
