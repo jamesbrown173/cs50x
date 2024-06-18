@@ -2,6 +2,6 @@
 
 int main() {
     int x = 42;
-    printf("Hello, World! x = %d\n", x);
+    printf("Hello, World ! x = %d\n", x);
     return 0;
 }
