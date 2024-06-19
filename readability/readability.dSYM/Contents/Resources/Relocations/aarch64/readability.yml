@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     readability
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BA8, symSize: 0x17C }
+  - { offsetInCU: 0x47, offset: 0x47, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BA8, symSize: 0x17C }
+  - { offsetInCU: 0x109, offset: 0x109, size: 0x8, addend: 0x0, symName: _count_letters, symObjAddr: 0x17C, symBinAddr: 0x100003D24, symSize: 0x98 }
+  - { offsetInCU: 0x169, offset: 0x169, size: 0x8, addend: 0x0, symName: _count_words, symObjAddr: 0x214, symBinAddr: 0x100003DBC, symSize: 0xA0 }
+  - { offsetInCU: 0x1C9, offset: 0x1C9, size: 0x8, addend: 0x0, symName: _count_sentences, symObjAddr: 0x2B4, symBinAddr: 0x100003E5C, symSize: 0xCC }
+...
