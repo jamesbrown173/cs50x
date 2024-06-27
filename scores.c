@@ -14,7 +14,7 @@ int main(void)
   int scores[N];
   for (int i = 0; i < N; i++)
   {
-    scores[i] = get_int("Score %d: ", i);
+    scores[i] = get_int("Score %d:", i);
   }
 
   // Print average
