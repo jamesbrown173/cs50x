@@ -10,7 +10,7 @@ int main(int argc, string argv[])
   }
   else
   {
-    printf("Error: Requires 3 inputs \n");
+    printf("Error: Requires 3 inputs\n");
     return 1;
   }
 }
