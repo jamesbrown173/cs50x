@@ -1,0 +1,59 @@
+ ~/coding/cs50x | master !1 ?5                                                                                                            11:49:13
+> ls
+HiThere                credit                 hello.c                mario-more             scrabble               string
+adresses               db                     hello.py               plurality              scrabble.c             string.c
+adresses.c             db.c                   hi                     python.py              search                 substitution
+buggy                  db.dSYM                hi.c                   readability            search.c               uppercase
+buggy.c                dna                    inheritance            readability.py         sentimental-credit     uppercase.c
+calculator             filter-less            length                 recover                sentimental-mario-more volume
+calculator.c           greet                  length.c               runoff                 songs
+compare                greet.c                libcs50-11.0.2         scores                 sort
+compare.c              hello                  list.c                 scores.c               speller
+ ~/coding/cs50x | master !1 ?5                                                                                                            11:49:13
+> cd songs
+ ~/coding/cs50x/songs | master !1 ?5                                                                                                      11:49:15
+> clear
+   󰈙 answers.txt            zsh                                                                                                            
+    9 ~/coding/cs50x/songs/..      │  1   This is my relfection
+    8    ★ 1.sql                  │~
+    7    ★ 2.sql                  │~
+    6    ★ 3.sql                  │~
+    5    ★ 4.sql                  │~
+    4    ★ 5.sql                  │~
+    3    ★ 6.sql                  │~
+    2    ★ 7.sql                  │~
+    1    ★ 8.sql                  │~
+    0   󰈙 ★ answers.txt            │~
+    1    ★ songs.db               │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~:
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+~                                  │~
+ NvimTree_1 [-]              10:17   INSERT   master  answers.txt                                          25  utf-8    󰈙 text  Top    1:14
+-- INSERT --
